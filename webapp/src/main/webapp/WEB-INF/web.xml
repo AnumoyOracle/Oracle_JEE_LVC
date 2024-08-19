@@ -25,4 +25,28 @@
      <servlet-name>SecondServlet</servlet-name>
      <url-pattern>/SecondServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <servlet-name>ThirdServlet</servlet-name>
+    <servlet-class>com.oracle.ThirdServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>ThirdServlet</servlet-name>
+     <url-pattern>/ThirdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>FourthServlet</servlet-name>
+    <servlet-class>com.oracle.FourthServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>FourthServlet</servlet-name>
+     <url-pattern>/FourthServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.oracle.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>LoginServlet</servlet-name>
+     <url-pattern>/login</url-pattern>
+  </servlet-mapping>
 </web-app>
