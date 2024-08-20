@@ -2,6 +2,7 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" version="6.0">
   <display-name>webapp</display-name>
   <welcome-file-list>
+    <welcome-file>form.html</welcome-file>
     <welcome-file>index.html</welcome-file>
     <welcome-file>index.jsp</welcome-file>
     <welcome-file>index.htm</welcome-file>
@@ -49,4 +50,20 @@
      <servlet-name>LoginServlet</servlet-name>
      <url-pattern>/login</url-pattern>
   </servlet-mapping>
+  <!-- <servlet>
+    <servlet-name>CustomerServlet</servlet-name>
+    <servlet-class>com.oracle.CustomerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>CustomerServlet</servlet-name>
+     <url-pattern>/CustomerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>PaymentServlet</servlet-name>
+    <servlet-class>com.oracle.PaymentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>PaymentServlet</servlet-name>
+     <url-pattern>/PaymentServlet</url-pattern>
+  </servlet-mapping> -->
 </web-app>
