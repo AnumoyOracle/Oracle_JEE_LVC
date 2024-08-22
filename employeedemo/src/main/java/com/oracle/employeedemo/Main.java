@@ -36,11 +36,21 @@ public class Main {
 		
 		
 		// NamedQueries
-		List<Employee> employees = getAllEmployees();
-		for(Employee employee : employees) {
-			System.out.println(employee);
-		}
+//		List<Employee> employees = getAllEmployees();
+//		for(Employee employee : employees) {
+//			System.out.println(employee);
+//		}
 		
+		
+		// Parameterized Query
+//		TypedQuery<Employee> query = entityManager.createQuery("select e from Employee e where e.ename = :empName and e.salary > :minSalary", Employee.class);
+//		query.setParameter("empName", "Ramesh");
+//		query.setParameter("minSalary", 50000.00);
+//		List<Employee> allEmployees = query.getResultList();
+//		
+//		for(Employee employee : allEmployees) {
+//			System.out.println(employee);
+//		}
 	}
 	
 	public static List<Employee> getAllEmployees(){
