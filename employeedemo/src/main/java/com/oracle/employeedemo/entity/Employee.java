@@ -3,10 +3,12 @@ package com.oracle.employeedemo.entity;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
 @Entity
 @Table(name = "employees")
+@NamedQuery(name = "getAllEmployees", query = "select e from Employee e")
 public class Employee {
 	@Id
 	@Column(name = "employee_id")
